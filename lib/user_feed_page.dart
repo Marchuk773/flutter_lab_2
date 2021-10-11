@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:lab2/tweet_helper.dart';
-import 'package:lab2/tweet_item_model.dart';
 
 class UserFeedPage extends StatefulWidget {
   @override
@@ -24,7 +23,7 @@ class _UserFeedPageState extends State<UserFeedPage> {
         ),
       ),
       body: ListView.builder(
-        itemCount: 4,
+        itemCount: TweetHelper.getNumOfTweets(),
         itemBuilder: (context, position) {
           TweetItemModel tweet = TweetHelper.getTweet(position);
 

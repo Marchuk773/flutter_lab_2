@@ -37,27 +37,27 @@ class _MyHomePageState extends State<MyHomePage> {
         unselectedFontSize: 0,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            title: Text(""),
+            label: "",
             icon: Icon(
               Icons.home,
               color: Colors.blue,
             ),
           ),
           BottomNavigationBarItem(
-            title: Text(""),
+            label: "",
             icon: Icon(
               Icons.search,
               color: Colors.blueGrey,
             ),
           ),
           BottomNavigationBarItem(
-              title: Text(""),
+              label: "",
               icon: Icon(
                 Icons.circle_notifications,
                 color: Colors.blueGrey,
               )),
           BottomNavigationBarItem(
-            title: Text(""),
+            label: "",
             icon: Icon(
               Icons.mail,
               color: Colors.blueGrey,
